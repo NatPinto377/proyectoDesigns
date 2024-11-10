@@ -1,0 +1,161 @@
+.bg-light {
+    --bs-bg-opacity: 1;
+   background-color: rgb(255, 255, 255) !important;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: inherit;
+  }
+  
+  body {
+    padding: 45px;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    text-shadow: 0 0.03rem 0.1rem rgba(0, 0, 0, .4);
+    box-shadow: inset 0 0 4rem rgba(0, 0, 0, .5);
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color:  rgb(212, 83, 83); 
+    cursor: pointer;
+    color: #f9f9f9;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    background-color: rgb(187, 66, 66);
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  
+  }
+
+  .py-5 {
+    padding-top: 9rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-danger{
+    background-color: rgb(212, 83, 83);;
+}
+
+.btn-danger a:hover{
+    background-color: rgb(226, 59, 59);
+}
+
+
+.btn svg{
+    margin-left: 5px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(212, 83, 83);
+}
+
+.nav a:hover{
+    text-decoration: none;
+    color: rgb(226, 59, 59);
+}
+
+.tittle-catalog h1 {
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    min-width: 300px; /* Ancho mínimo de la tarjeta */
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  form {
+    background-color: #e5d1d10c;
+  }
+
+.form-container {
+    display: flex;
+    align-items: stretch;
+    color: #b9b9b9;
+}
+.form-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.form-container form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  
